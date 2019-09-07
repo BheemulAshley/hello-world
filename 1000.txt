@@ -1,0 +1,27 @@
+  string Text;
+  int i=0;
+  int Length=0;
+
+
+
+
+       cout << "Input Text to be encrypted ";
+       getline(cin,Text);
+       Length= Text.size();
+
+  while(i<= Length){
+char C;
+
+       Text.substr(i,1);
+       cin>> C ;
+       cout << (int)C<<endl;
+
+
+
+
+
+
+
+        i++;
+
+  }
